@@ -1,0 +1,83 @@
+/* Temp Class */
+.avtar-wrapper {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: end;
+  margin: 0.25rem;
+}
+
+.avtar {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1rem;
+}
+
+.avtar img {
+  max-width: 100%;
+  display: block;
+}
+
+.avtar.avtar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-font-color);
+  background-color: var(--primary-color);
+}
+
+.avtar-xxl {
+  height: 14rem;
+  width: 14rem;
+}
+
+.avtar-xxl span {
+  font-size: 4.75rem;
+}
+
+.avtar-xl {
+  height: 12rem;
+  width: 12rem;
+}
+
+.avtar-xl span {
+  font-size: 4.25rem;
+}
+
+.avtar-lg {
+  height: 10rem;
+  width: 10rem;
+}
+
+.avtar-lg span {
+  font-size: 3.75rem;
+}
+
+.avtar-md {
+  height: 8rem;
+  width: 8rem;
+}
+
+.avtar-md span {
+  font-size: 3rem;
+}
+
+.avtar-sm {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avtar-sm span {
+  font-size: 2rem;
+}
+
+.avtar-xs {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avtar-xs span {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--primary-font-color);
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.wrapper .sidebar {
+  width: 20%;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  overflow-x: auto;
+  position: sticky;
+  top: 0rem;
+  height: calc(100vh - 2rem);
+}
+.wrapper .sidebar h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.wrapper .sidebar ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(48, 41, 41, 0.05);
+}
+.wrapper .sidebar ul li a {
+  padding: 1rem 1.5rem;
+  display: block;
+  color: var(--primary-font-color);
+  font-size: 1.5rem;
+}
+.wrapper .sidebar ul li:hover a {
+  color: var(--secondary-font-color);
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+.wrapper .sidebar .socila-media {
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .sidebar .socila-media a {
+  color: var(--primary-font-color);
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+.wrapper .sidebar .socila-media a:hover {
+  color: var(--primary-color);
+}
+
+.wrapper .main-documentation {
+  width: 80%;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+.wrapper .main-documentation {
+  width: 80%;
+  padding: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+/* span {
+  color: var(--primary-color);
+} */
+.wrapper .main-documentation .component-intro {
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.wrapper .main-documentation .component-intro h1 {
+  font-size: 4rem;
+}
+.wrapper .main-documentation .component-usage-explain h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.wrapper .main-documentation .component-display {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 2rem 0;
+  align-items: baseline;
+  width: 100%;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.5rem;
+}
+.wrapper .main-documentation .component-code {
+  margin-bottom: 3rem;
+}
+.prism-default {
+  height: 35vh;
+  border-radius: 5px;
+}
