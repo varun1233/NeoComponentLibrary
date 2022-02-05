@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI|Docs</title>
+    <link rel="icon" href="./Images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/documentation.css" />
+    <link rel="stylesheet" href="/components/swift.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div class="container display-flex">
+        <div class="logo">
+          <a class="display-flex" href="/home.html">
+            <img src="/Images/logo.png" alt="Swift Logo" /><span>Swift UI</span>
+          </a>
+        </div>
+        <div class="navigation">
+          <a href="/home.html">Home</a>
+          <a href="/documentation.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Page Starts-->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h2>Getting Started</h2>
+        <ul>
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Colors</a></li>
+          <li><a href="#">Typography</a></li>
+        </ul>
+
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#alerts">Alerts</a></li>
+          <li><a href="#avatar">Avatars</a></li>
+          <li><a href="#">Badges</a></li>
+          <li><a href="#">Buttons</a></li>
+          <li><a href="#">Image</a></li>
+          <li><a href="#">Input</a></li>
+        </ul>
+        <div class="socila-media display-flex">
+          <a href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://twitter.com/VarunMittal1233" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/varunmittal1233/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <!-- Main Documentation Starts -->
+      <section class="main-documentation">
+        <!-- Alert Starts -->
+        <div id="alerts">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Alerts</h1>
+            <p>
+              Alert are used to attract user's attention for important
+              information without interrupting the user's flow.
+            </p>
+          </div>
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Alert</h3>
+            <p>
+              Alerts Alerts are available in 5 types- primary alert, secondary
+              alert, success alert, warning alert, danger alert.
+              <br />
+              To use this alert just use class name <span>alert</span> and also
+              add class according to alert type-
+              <span
+                >alert-primary, alert-secondary, alert-danger, alert-success,
+                alert-warning</span
+              >. (e.g.<span>class="alert alert-primary"</span>).
+              <br />
+              You can copy html part from below code snippet.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <div class="alert alert-primary">This is primary alert.</div>
+            <div class="alert alert-secondary">This is secondary alert.</div>
+            <div class="alert alert-success">This is success alert.</div>
+            <div class="alert alert-warning">This is warning alert.</div>
+            <div class="alert alert-danger">This is danger alert.</div>
+            <div class="alert alert-success">
+              <span class="alert-icon">
+                <i class="fas fa-check-circle"></i>
+              </span>
+              This is success alert with icon.
+            </div>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="alert alert-primary">This is primary alert.</div>
+              <div class="alert alert-secondary">This is secondary alert.</div>
+              <div class="alert alert-success">This is success alert.</div>
+              <div class="alert alert-warning">This is warning alert.</div>
+              <div class="alert alert-danger">This is danger alert.</div>
+              <div class="alert alert-success">
+                <span class="alert-icon">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                This is success alert with icon.
+              </div>
+            </script>
+          </div>
+        </div>
+        <!-- Alert Ends -->
+        <hr />
+        <!-- Avatar Starts -->
+        <div id="avatar">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Avatar</h1>
+            <p>
+              Avatar can be used to show user's profile picture on profile
+              information page, on navigation bar, in blogs grid items.
+            </p>
+          </div>
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Image Avatar</h3>
+            <p>
+              Avatar is available in 6 different sizes. You can use image in
+              Avatar. You need to include class avatar and for size add class
+              according to size avatar-xxl, avatar-xl, avatar-lg, avatar-md
+              avatar-sm avatar-xs (e.g. class="avatar avatar-lg")
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <div class="avatar avatar-xxl">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xl">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-lg">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-md">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-sm">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xs">
+              <img
+                src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                alt="avatar"
+              />
+            </div>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="avatar avatar-xxl">
+                <img src="..." alt="avatar"/>
+              </div>
+              <div class="avatar avatar-xl">
+                <img src="..." alt="avatar"/>
+              </div>
+              <div class="avatar avatar-lg">
+                <img src="..." alt="avatar"/>
+              </div>
+              <div class="avatar avatar-md">
+                <img src="..." alt="avatar"/>
+              </div>
+              <div class="avatar avatar-sm">
+                <img src="..." alt="avatar"/>
+              </div>
+              <div class="avatar avatar-xs">
+                <img src="..." alt="avatar"/>
+              </div>
+            </script>
+          </div>
+          <!-- Text avatar Example -->
+          <div class="component-usage-explain">
+            <h3>Example of Text Avatar</h3>
+            <p>
+              You can use initial letters of user in Avatar as well. You need to
+              include class avatar-text along with avatar and size class. (e.g.
+              class="avatar avatar-text avatar-lg")
+            </p>
+          </div>
+          <div class="component-display">
+            <div class="avatar avatar-text avatar-xxl">
+              <span>VM</span>
+            </div>
+            <div class="avatar avatar-text avatar-xl">
+              <span>VM</span>
+            </div>
+            <div class="avatar avatar-text avatar-lg">
+              <span>VM</span>
+            </div>
+            <div class="avatar avatar-text avatar-md">
+              <span>VM</span>
+            </div>
+            <div class="avatar avatar-text avatar-sm">
+              <span>VM</span>
+            </div>
+            <div class="avatar avatar-text avatar-xs">
+              <span>VM</span>
+            </div>
+          </div>
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="avatar avatar-text avatar-xxl">
+                <span>VM</span>
+              </div>
+              <div class="avatar avatar-text avatar-xl">
+                <span>VM</span>
+              </div>
+              <div class="avatar avatar-text avatar-lg">
+                <span>VM</span>
+              </div>
+              <div class="avatar avatar-text avatar-md">
+                <span>VM</span>
+              </div>
+              <div class="avatar avatar-text avatar-sm">
+                <span>VM</span>
+              </div>
+              <div class="avatar avatar-text avatar-xs">
+                <span>VM</span>
+              </div>
+            </script>
+          </div>
+        </div>
+        <!-- avatar Ends -->
+      </section>
+      <!-- Main Documentation Ends -->
+    </div>
+    <!-- Main Page Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/components/prism/prism.js"></script>
+</html>

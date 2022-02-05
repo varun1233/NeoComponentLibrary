@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--primary-font-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+section.main-content {
+  height: calc(100vh - 250px);
+}
+.main-content .container {
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 7.8rem;
+}
+.main-content .content-block {
+  width: 45%;
+  font-size: 2rem;
+}
+.main-content .content-block h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.main-content .content-block p {
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.main-content .content-button a {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-font-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+.main-content .content-button a:hover {
+  background-color: var(--secondary-font-color);
+  color: var(--primary-color);
+}
+.main-content .image-block {
+  width: 55%;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 3.5rem 0;
+  text-align: center;
+  color: var(--secondary-font-color);
+}
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+footer span {
+  color: var(--primary-color);
+}
+footer .social-media a {
+  color: var(--secondary-font-color);
+  padding: 0 1.5rem;
+  font-size: 2rem;
+}
+footer .social-media a:hover {
+  color: var(--primary-color);
+}
