@@ -1,72 +1,59 @@
-.avtar {
+.avatar {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 1rem;
 }
-
-.avtar img {
+.avatar img {
   max-width: 100%;
   display: block;
 }
-
-.avtar.avtar-text {
+.avatar.avatar-text {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--secondary-font-color);
   background-color: var(--primary-color);
 }
-
-.avtar-xxl {
+.avatar-xxl {
   height: 14rem;
   width: 14rem;
 }
-
-.avtar-xxl span {
+.avatar-xxl span {
   font-size: 4.75rem;
 }
-
-.avtar-xl {
+.avatar-xl {
   height: 12rem;
   width: 12rem;
 }
-
-.avtar-xl span {
+.avatar-xl span {
   font-size: 4.25rem;
 }
-
-.avtar-lg {
+.avatar-lg {
   height: 10rem;
   width: 10rem;
 }
 
-.avtar-lg span {
+.avatar-lg span {
   font-size: 3.75rem;
 }
-
-.avtar-md {
+.avatar-md {
   height: 8rem;
   width: 8rem;
 }
-
-.avtar-md span {
+.avatar-md span {
   font-size: 3rem;
 }
-
-.avtar-sm {
+.avatar-sm {
   height: 6rem;
   width: 6rem;
 }
-
-.avtar-sm span {
+.avatar-sm span {
   font-size: 2rem;
 }
-
-.avtar-xs {
+.avatar-xs {
   height: 4rem;
   width: 4rem;
 }
-
-.avtar-xs span {
+.avatar-xs span {
   font-size: 1.25rem;
 }

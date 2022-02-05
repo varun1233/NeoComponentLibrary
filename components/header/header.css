@@ -1,7 +1,6 @@
 header {
-  /* background-color: var(--primary-color-light); */
+  background-color: var(--primary-color-light);
   box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-  background-color: #ffe4e9;
 }
 header .container {
   justify-content: space-between;
@@ -9,7 +8,7 @@ header .container {
   padding: 1rem;
 }
 header img {
-  width: 45px;
+  width: 4.5rem;
   display: block;
   margin-right: 1.5rem;
 }

@@ -40,7 +40,7 @@ section.main-content {
   background-color: var(--primary-color);
   color: var(--secondary-font-color);
   border: 1px solid var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 5px;
 }
 .main-content .content-button a:hover {
   background-color: var(--secondary-font-color);

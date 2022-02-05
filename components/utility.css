@@ -1,25 +1,20 @@
 .display-flex {
   display: flex;
 }
-
 a {
   text-decoration: none;
   transition: 0.2s ease;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 .prism-default::-webkit-scrollbar {
   width: 10px;
 }
-
 .prism-default::-webkit-scrollbar-track {
   background-color: #b2b2b39a;
 }
-
 .prism-default::-webkit-scrollbar-thumb {
   border-radius: 33px;
   background-color: #0e0f0f5d;
