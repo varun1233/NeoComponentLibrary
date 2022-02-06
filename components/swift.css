@@ -5,6 +5,7 @@
 @import url("/components/utility.css");
 @import url("/components/header/header.css");
 @import url("/components/prism/prism.css");
+@import url("/components/badges/badges.css");
 
 * {
   margin: 0;
