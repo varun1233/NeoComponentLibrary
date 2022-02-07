@@ -20,20 +20,20 @@ section.main-content {
   margin-top: 6rem;
   margin-bottom: 7.8rem;
 }
-.main-content .content-block {
+.content-block {
   width: 45%;
   font-size: 2rem;
 }
-.main-content .content-block h1 {
+.content-block h1 {
   font-size: 4.5rem;
   font-weight: bold;
 }
-.main-content .content-block p {
+.content-block p {
   line-height: 3.5rem;
   font-size: 2.5rem;
   margin-top: 1rem;
 }
-.main-content .content-button a {
+.content-button a {
   display: inline-block;
   padding: 1rem 2.5rem;
   margin-top: 2rem;
@@ -42,11 +42,11 @@ section.main-content {
   border: 1px solid var(--primary-color);
   border-radius: 5px;
 }
-.main-content .content-button a:hover {
+.content-button a:hover {
   background-color: var(--secondary-font-color);
   color: var(--primary-color);
 }
-.main-content .image-block {
+.image-block {
   width: 55%;
 }
 
@@ -63,11 +63,11 @@ footer h4 {
 footer span {
   color: var(--primary-color);
 }
-footer .social-media a {
+.social-media a {
   color: var(--secondary-font-color);
   padding: 0 1.5rem;
   font-size: 2rem;
 }
-footer .social-media a:hover {
+.social-media a:hover {
   color: var(--primary-color);
 }

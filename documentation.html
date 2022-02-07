@@ -41,12 +41,13 @@
         <ul>
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#avatar">Avatars</a></li>
-          <li><a href="#">Badges</a></li>
-          <li><a href="#">Buttons</a></li>
+          <li><a href="#badges">Badges</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#">Cards</a></li>
           <li><a href="#">Image</a></li>
           <li><a href="#">Input</a></li>
         </ul>
-        <div class="socila-media display-flex">
+        <div class="social-media display-flex">
           <a href="https://github.com/varun1233" target="_blank"
             ><i class="fab fa-github"></i
           ></a>
@@ -79,12 +80,13 @@
               Alerts Alerts are available in 5 types- primary alert, secondary
               alert, success alert, warning alert, danger alert.
               <br />
-              To use this alert just use class name <span>alert</span> and also
-              add class according to alert type-
-              <span
+              To use this alert just use class name
+              <span class="code">alert</span> and also add class according to
+              alert type-
+              <span class="code"
                 >alert-primary, alert-secondary, alert-danger, alert-success,
                 alert-warning</span
-              >. (e.g.<span>class="alert alert-primary"</span>).
+              >. (e.g.<span class="code">class="alert alert-primary"</span>).
               <br />
               You can copy html part from below code snippet.
             </p>
@@ -124,7 +126,9 @@
           </div>
         </div>
         <!-- Alert Ends -->
+
         <hr />
+
         <!-- Avatar Starts -->
         <div id="avatar">
           <!-- Component Introduction -->
@@ -141,8 +145,12 @@
             <p>
               Avatar is available in 6 different sizes. You can use image in
               Avatar. You need to include class avatar and for size add class
-              according to size avatar-xxl, avatar-xl, avatar-lg, avatar-md
-              avatar-sm avatar-xs (e.g. class="avatar avatar-lg")
+              according to size
+              <span class="code"
+                >avatar-xxl, avatar-xl, avatar-lg, avatar-md avatar-sm
+                avatar-xs</span
+              >
+              (e.g.<span class="code">class="avatar avatar-lg"</span>)
             </p>
           </div>
           <!-- Component Display -->
@@ -210,13 +218,15 @@
               </div>
             </script>
           </div>
+
           <!-- Text avatar Example -->
           <div class="component-usage-explain">
             <h3>Example of Text Avatar</h3>
             <p>
               You can use initial letters of user in Avatar as well. You need to
-              include class avatar-text along with avatar and size class. (e.g.
-              class="avatar avatar-text avatar-lg")
+              include class <span class="code">avatar-text</span> along with
+              <span class="code">avatar</span> and size class. (e.g.
+              <span class="code">class="avatar avatar-text avatar-lg"</span>)
             </p>
           </div>
           <div class="component-display">
@@ -265,7 +275,388 @@
             </script>
           </div>
         </div>
-        <!-- avatar Ends -->
+        <!-- Avatar Ends -->
+
+        <hr />
+
+        <!-- Badges Starts -->
+        <div id="badges">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Badges</h1>
+            <p>
+              Badges are being used to display a notification count or status
+              information
+            </p>
+          </div>
+
+          <!-- Example of Profile Badge Starts -->
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Status Badge</h3>
+            <p>
+              We have 3 type of status badge that can be integrated with
+              Avatars. You can use
+              <span class="code"
+                >status-online, status-offline & status-away</span
+              >
+              classes to show different states of user. Check code below to copy
+              the html part.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <div class="badge-container">
+              <div class="avatar avatar-xxl">
+                <img
+                  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <span class="badge-status status-online"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-xl">
+                <img
+                  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <span class="badge-status status-offline"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-md">
+                <img
+                  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <span class="badge-status status-away"></span>
+            </div>
+            <div class="badge-container">
+              <div class="avatar avatar-xs">
+                <img
+                  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <span class="badge-status status-online"></span>
+            </div>
+          </div>
+          <!-- Code Section -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="badge-container">
+                <div class="avatar avatar-xxl">
+                  <img
+                    src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                    alt="avatar"
+                  />
+                  <span
+                    class="badge-status status-online badge-botton-right"
+                  ></span>
+                </div>
+              </div>
+              <div class="badge-container">
+                <div class="avatar avatar-xl">
+                  <img
+                    src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="badge-status status-offline"></span>
+              </div>
+              <div class="badge-container">
+                <div class="avatar avatar-md">
+                  <img
+                    src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="badge-status status-away"></span>
+              </div>
+              <div class="badge-container">
+                <div class="avatar avatar-xs">
+                  <img
+                    src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/125296371/original/653cc81872119844644e33d40f5afd9bd61743b6/create-cool-cartoon-avatars.jpg"
+                    alt="avatar"
+                  />
+                </div>
+                <span class="badge-status status-online"></span>
+              </div>
+            </script>
+          </div>
+          <!-- Example of Profile Badge Ends -->
+
+          <!-- Example Of Number Badge Starts-->
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Number Badge</h3>
+            <p>
+              Number badge can be used to show notification count. There are 2
+              variants of number badges: position right and position left. You
+              can use the
+              <span class="code">badge-top-left and badge-top-right</span>
+              classes to change the position of the notification count. Check
+              code below to copy the html part.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <div class="badge-container">
+              <i class="far fa-envelope"></i>
+              <span class="badge-number badge-top-right">8</span>
+            </div>
+            <div class="badge-container">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="badge-number badge-top-right">8</span>
+            </div>
+            <div class="badge-container">
+              <i class="far fa-bell"></i>
+              <span class="badge-number badge-top-left">12</span>
+            </div>
+          </div>
+          <!-- Code Section -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="badge-container">
+                <i class="far fa-envelope"></i>
+                <span class="badge-number badge-top-right">8</span>
+              </div>
+
+              <div class="badge-container">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge-number badge-top-right">8</span>
+              </div>
+
+              <div class="badge-container">
+                <i class="far fa-bell"></i>
+                <span class="badge-number badge-top-left">12</span>
+              </div>
+            </script>
+          </div>
+          <!-- Example Of Number Badge Ends -->
+        </div>
+
+        <hr />
+
+        <div id="buttons">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Buttons</h1>
+            <p>
+              Button is a trigger that allows user to take action. We have a
+              different range of options for a button. You may use
+              <span class="code"><i>a</i></span> tag or
+              <span class="code"><i>button</i></span> element or
+              <span class="code"><i>input</i></span> element, you need to add
+              respective classes, and you are good to go.
+            </p>
+          </div>
+          <!-- Example of Solid buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Solid Buttons</h3>
+            <p>
+              We have six predefined button styles,each serving its own semantic
+              purpose. You need to include class
+              <span class="code">btn</span> for normal buttons, also add
+              modifier class according to the button type-
+              <span class="code"
+                >btn-primary,btn-secondary,btn-success,btn-danger,
+                btn-warning</span
+              >. Checkout the html code below:
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="submit" class="btn btn-secondary">Secondary</button>
+            <input class="btn btn-success" type="button" value="Success" />
+            <input class="btn btn-danger" type="submit" value="Danger" />
+            <input class="btn btn-warning" type="reset" value="Warning" />
+            <button class="btn">Info</button>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="submit" class="btn btn-secondary">Secondary</button>
+              <input class="btn btn-success" type="button" value="Success" />
+              <input class="btn btn-danger" type="submit" value="Danger" />
+              <input class="btn btn-warning" type="reset" value="Warning" />
+              <button class="btn">Info</button>
+              <a class="btn btn-primary" href="#" role="button">Link</a>
+            </script>
+          </div>
+
+          <!-- Example of Solid buttons Ends -->
+
+          <!-- Example of Outline buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Outline Buttons</h3>
+            <p>
+              In need of a button, but not the hefty background colors they
+              bring? Replace the default modifier classes with the
+              <span class="code">.btn-outline-*</span> ones to remove all
+              background and colors on any button.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <button type="submit" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+            <a class="btn btn-outline-success" href="#" role="button"
+              >Success</a
+            >
+            <input
+              class="btn btn-outline-danger"
+              type="button"
+              value="Danger"
+            />
+            <input
+              class="btn btn-outline-warning"
+              type="submit"
+              value="Warning"
+            />
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="submit" class="btn btn-outline-secondary">Secondary</button>
+              <a class="btn btn-outline-success" href="#" role="button">Success</a>
+              <input class="btn btn-outline-danger" type="button" value="Danger" />
+              <input class="btn btn-outline-warning" type="submit" value="Warning" />
+            </script>
+          </div>
+
+          <!-- Example of Outline buttons ends -->
+
+          <!-- Example of Icon buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Icon Buttons</h3>
+            <p>
+              You can add icons as buttons as well. There are 3 variants of icon
+              buttons available. Checkout the html code below:
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <a class="btn" href="#" role="button"
+              ><span class="btn-icon-text"
+                ><i class="fas fa-shopping-cart"></i></span
+              >Add to cart</a
+            >
+            <button class="btn btn-primary">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+                <a class="btn" href="#" role="button"
+                ><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i></span
+                >Add to cart</a
+              >
+              <button class="btn btn-primary">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+            </script>
+          </div>
+
+          <!-- Example of Icon buttons ends -->
+
+          <!-- Example of Disabled buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Disabled Buttons</h3>
+            <p>
+              Make buttons look inactive by adding the
+              <span class="code">btn-disabled</span> class along with the
+              <span class="code">btn</span> class. Disabled buttons have
+              pointer-events: none applied to, preventing hover and active
+              states from triggering.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-primary btn-disabled">
+              Primary
+            </button>
+            <a
+              class="btn btn-outline-danger btn-disabled"
+              href="#"
+              role="button"
+              >Success</a
+            >
+            <a class="btn btn-disabled" href="#" role="button"
+              ><span class="btn-icon-text"
+                ><i class="fas fa-shopping-cart"></i></span
+              >Add to cart</a
+            >
+            <button class="btn btn-primary btn-disabled">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon btn-disabled">
+              <i class="fas fa-trash"></i>
+            </button>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-primary btn-disabled">
+                Primary
+              </button>
+              <a class="btn btn-outline-danger btn-disabled" href="#" role="button"
+                >Success</a
+              >
+              <a class="btn btn-disabled" href="#" role="button"
+                ><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i></span
+                >Add to cart</a
+              >
+              <button class="btn btn-primary btn-disabled">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="btn btn-icon btn-disabled">
+                <i class="fas fa-trash"></i>
+              </button>
+            </script>
+          </div>
+
+          <!-- Example of Disabled buttons ends -->
+        </div>
       </section>
       <!-- Main Documentation Ends -->
     </div>

@@ -5,6 +5,8 @@
 @import url("/components/utility.css");
 @import url("/components/header/header.css");
 @import url("/components/prism/prism.css");
+@import url("/components/badges/badges.css");
+@import url("/components/buttons/button.css");
 
 * {
   margin: 0;
@@ -49,4 +51,14 @@ html {
   --danger-alert-background-color: #fcc5c5;
   --danger-alert-font-color: #c90518;
   --danger-alert-border-color: #f5c6cb;
+
+  --badge-status-online: #1b7052;
+  --badge-status-offline: rgb(172, 172, 172);
+  --badge-status-away: #f44336;
+
+  --button-warning-color: #ffc107;
+  --button-danger-color: #dc3545;
+  --button-primary-color: #0d6efd;
+  --button-secondary-color: #6c757d;
+  --button-success-color: #198754;
 }
