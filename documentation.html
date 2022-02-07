@@ -42,7 +42,8 @@
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#avatar">Avatars</a></li>
           <li><a href="#badges">Badges</a></li>
-          <li><a href="#">Buttons</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#">Cards</a></li>
           <li><a href="#">Image</a></li>
           <li><a href="#">Input</a></li>
         </ul>
@@ -441,6 +442,220 @@
             </script>
           </div>
           <!-- Example Of Number Badge Ends -->
+        </div>
+
+        <hr />
+
+        <div id="buttons">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Buttons</h1>
+            <p>
+              Button is a trigger that allows user to take action. We have a
+              different range of options for a button. You may use
+              <span class="code"><i>a</i></span> tag or
+              <span class="code"><i>button</i></span> element or
+              <span class="code"><i>input</i></span> element, you need to add
+              respective classes, and you are good to go.
+            </p>
+          </div>
+          <!-- Example of Solid buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Solid Buttons</h3>
+            <p>
+              We have six predefined button styles,each serving its own semantic
+              purpose. You need to include class
+              <span class="code">btn</span> for normal buttons, also add
+              modifier class according to the button type-
+              <span class="code"
+                >btn-primary,btn-secondary,btn-success,btn-danger,
+                btn-warning</span
+              >. Checkout the html code below:
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="submit" class="btn btn-secondary">Secondary</button>
+            <input class="btn btn-success" type="button" value="Success" />
+            <input class="btn btn-danger" type="submit" value="Danger" />
+            <input class="btn btn-warning" type="reset" value="Warning" />
+            <button class="btn">Info</button>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="submit" class="btn btn-secondary">Secondary</button>
+              <input class="btn btn-success" type="button" value="Success" />
+              <input class="btn btn-danger" type="submit" value="Danger" />
+              <input class="btn btn-warning" type="reset" value="Warning" />
+              <button class="btn">Info</button>
+              <a class="btn btn-primary" href="#" role="button">Link</a>
+            </script>
+          </div>
+
+          <!-- Example of Solid buttons Ends -->
+
+          <!-- Example of Outline buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Outline Buttons</h3>
+            <p>
+              In need of a button, but not the hefty background colors they
+              bring? Replace the default modifier classes with the
+              <span class="code">.btn-outline-*</span> ones to remove all
+              background and colors on any button.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <button type="submit" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+            <a class="btn btn-outline-success" href="#" role="button"
+              >Success</a
+            >
+            <input
+              class="btn btn-outline-danger"
+              type="button"
+              value="Danger"
+            />
+            <input
+              class="btn btn-outline-warning"
+              type="submit"
+              value="Warning"
+            />
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="submit" class="btn btn-outline-secondary">Secondary</button>
+              <a class="btn btn-outline-success" href="#" role="button">Success</a>
+              <input class="btn btn-outline-danger" type="button" value="Danger" />
+              <input class="btn btn-outline-warning" type="submit" value="Warning" />
+            </script>
+          </div>
+
+          <!-- Example of Outline buttons ends -->
+
+          <!-- Example of Icon buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Icon Buttons</h3>
+            <p>
+              You can add icons as buttons as well. There are 3 variants of icon
+              buttons available. Checkout the html code below:
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <a class="btn" href="#" role="button"
+              ><span class="btn-icon-text"
+                ><i class="fas fa-shopping-cart"></i></span
+              >Add to cart</a
+            >
+            <button class="btn btn-primary">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+                <a class="btn" href="#" role="button"
+                ><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i></span
+                >Add to cart</a
+              >
+              <button class="btn btn-primary">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+            </script>
+          </div>
+
+          <!-- Example of Icon buttons ends -->
+
+          <!-- Example of Disabled buttons -->
+
+          <!-- Component Usage explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Disabled Buttons</h3>
+            <p>
+              Make buttons look inactive by adding the
+              <span class="code">btn-disabled</span> class along with the
+              <span class="code">btn</span> class. Disabled buttons have
+              pointer-events: none applied to, preventing hover and active
+              states from triggering.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <button type="button" class="btn btn-primary btn-disabled">
+              Primary
+            </button>
+            <a
+              class="btn btn-outline-danger btn-disabled"
+              href="#"
+              role="button"
+              >Success</a
+            >
+            <a class="btn btn-disabled" href="#" role="button"
+              ><span class="btn-icon-text"
+                ><i class="fas fa-shopping-cart"></i></span
+              >Add to cart</a
+            >
+            <button class="btn btn-primary btn-disabled">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon btn-disabled">
+              <i class="fas fa-trash"></i>
+            </button>
+          </div>
+          <!-- Component code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <button type="button" class="btn btn-primary btn-disabled">
+                Primary
+              </button>
+              <a class="btn btn-outline-danger btn-disabled" href="#" role="button"
+                >Success</a
+              >
+              <a class="btn btn-disabled" href="#" role="button"
+                ><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i></span
+                >Add to cart</a
+              >
+              <button class="btn btn-primary btn-disabled">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="btn btn-icon btn-disabled">
+                <i class="fas fa-trash"></i>
+              </button>
+            </script>
+          </div>
+
+          <!-- Example of Disabled buttons ends -->
         </div>
       </section>
       <!-- Main Documentation Ends -->

@@ -33,13 +33,13 @@
   border: 2px solid var(--secondary-font-color);
 }
 .status-online {
-  background-color: #1b7052;
+  background-color: var(--badge-status-online);
 }
 .status-offline {
-  background-color: rgb(172, 172, 172);
+  background-color: var(--badge-status-offline);
 }
 .status-away {
-  background-color: #f44336;
+  background-color: var(--badge-status-away);
 }
 .badge-container .avatar-xxl ~ .badge-status {
   height: 2.5rem;
