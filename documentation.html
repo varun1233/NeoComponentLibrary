@@ -43,8 +43,9 @@
           <li><a href="#avatar">Avatars</a></li>
           <li><a href="#badges">Badges</a></li>
           <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#images">Image</a></li>
+          <li><a href="#toast">Toast</a></li>
           <li><a href="#">Cards</a></li>
-          <li><a href="#">Image</a></li>
           <li><a href="#">Input</a></li>
         </ul>
         <div class="social-media display-flex">
@@ -656,6 +657,160 @@
           </div>
 
           <!-- Example of Disabled buttons ends -->
+        </div>
+
+        <hr />
+
+        <div id="images">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Images</h1>
+            <p>
+              Images can be responsive to fit the parent's width, and also can
+              be customised to be round or square shaped
+            </p>
+          </div>
+
+          <!-- Example of responsive Image starts -->
+
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Responsive Image</h3>
+            <p>
+              You can add class <span class="code">img-responsive</span> to make
+              your image fit the width of container. It's height will get
+              adjusted by keeping the aspect ratio same. If you want to change
+              the aspect ratio, you will have to crop the image.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <img
+              class="responsive-image"
+              src="../../Images/responsive_Image.jpg"
+              alt="responsive_image"
+            />
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <img class="responsive-image" src=".." alt="responsive_image" />
+            </script>
+          </div>
+
+          <!-- Example of responsive Image Ends -->
+
+          <!-- Example of round & square Image starts -->
+
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Round & Square Image</h3>
+            <p>
+              You can add class <span class="code">image-round</span> to make
+              your image round shaped. <br />
+              To make an image square shaped you can add class
+              <span class="code">image-square</span>.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <img
+              class="responsive-image image-round"
+              src="/Images/round_image.png"
+              alt="rounded_image"
+            />
+            <img
+              class="responsive-image image-square"
+              src="/Images/square_image.png"
+              alt="square_image"
+            />
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <img class="responsive-image image-round" src=".." alt="round_image" />
+              <img class="responsive-image image-square" src=".." alt="square_image" />
+            </script>
+          </div>
+
+          <!-- Example of round & square Image ends -->
+        </div>
+
+        <hr />
+
+        <div id="toast">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Toasts</h1>
+            <p>
+              This component can be used for toast or snackbar component. Toast
+              is mostly used to show feedback message. Snackbar is to used show
+              message that need user action
+            </p>
+          </div>
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Toast</h3>
+            <p>
+              Add <span class="code">toast</span> class to wrapper. Toast has 3
+              themes, for error, success & info. Add
+              <span class="code">toast-success, toast-error, toast-info</span>
+              class to style the theme.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <div class="toast toast-success">
+              <span>Data saved successfully!!</span>
+              <button class="btn-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="toast toast-error">
+              <span>Something went wrong. Please try again!!</span>
+              <button class="btn-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="toast toast-info">
+              <span>Data Loading...</span>
+              <button class="btn-close">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div class="toast toast-success">
+                <span>Data saved successfully!!</span>
+                <button class="btn-close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <div class="toast toast-error">
+                <span>Something went wrong. Please try again!!</span>
+                <button class="btn-close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <div class="toast toast-info">
+                <span>Data Loading...</span>
+                <button class="btn-close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </script>
+          </div>
         </div>
       </section>
       <!-- Main Documentation Ends -->
