@@ -1,0 +1,95 @@
+.strike-through {
+  text-decoration: line-through;
+}
+.discount-percentage {
+  color: var(--primary-color);
+}
+.card-box-shadown {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+.card-vertical {
+  position: relative;
+  border-radius: 5px;
+  width: 25rem;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--primary-background-color);
+}
+.card-horizontal {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 60%;
+  border: 1px solid var(--primary-background-color);
+}
+.card-vertical:hover,
+.card-horizontal:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-body {
+  color: var(--primary-font-color);
+}
+.card-horizontal .card-body {
+  width: 80%;
+}
+.card-body:hover {
+  background-color: var(--primary-background-color);
+}
+.card-horizontal .card-image {
+  position: relative;
+  display: flex;
+  width: 20%;
+  height: 16rem;
+}
+.product-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.card-icon {
+  cursor: pointer;
+  color: var(--color-light-gray);
+}
+.product-description {
+  margin: 0 0 3px 0;
+  line-height: 1.5;
+}
+.card-cta a {
+  margin-right: 1rem;
+}
+.card-text-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay-background-color);
+}
+.card-badge {
+  position: absolute;
+  color: var(--secondary-font-color);
+  background-color: var(--primary-color);
+  padding: 5px 1rem;
+  top: 1rem;
+  left: 0;
+  border-radius: 5px;
+}
+.card-horizontal .card-badge {
+  padding: 5px 1rem;
+  top: 15px;
+  left: 10px;
+}
+.card-vertical .btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

@@ -83,6 +83,7 @@ span.code {
 .component-display {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   padding: 1rem;
   margin: 2rem 0;
   justify-content: space-evenly;
