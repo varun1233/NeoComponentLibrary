@@ -22,7 +22,7 @@ span.code {
   overflow-x: auto;
   position: sticky;
   top: 0rem;
-  height: calc(100vh - 2rem);
+  height: 100vh;
 }
 .sidebar h2 {
   margin-bottom: 1rem;
@@ -83,6 +83,7 @@ span.code {
 .component-display {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   padding: 1rem;
   margin: 2rem 0;
   justify-content: space-evenly;

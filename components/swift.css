@@ -7,6 +7,9 @@
 @import url("/components/prism/prism.css");
 @import url("/components/badges/badges.css");
 @import url("/components/buttons/button.css");
+@import url("/components/image/image.css");
+@import url("/components/toast/toast.css");
+@import url("/components/cards/cards.css");
 
 * {
   margin: 0;
@@ -28,6 +31,7 @@ html {
 
   /* --primary-background-color: #f9f9f9 - For Future Use */
   --primary-background-color: #e6e6e6;
+  --overlay-background-color: rgb(234, 234, 236, 0.6);
 
   --primary-font-color: #3e4152;
   --secondary-font-color: #fff;
@@ -61,4 +65,7 @@ html {
   --button-primary-color: #0d6efd;
   --button-secondary-color: #6c757d;
   --button-success-color: #198754;
+
+  --color-light-gray: rgb(160, 160, 160);
+  --color-black: black;
 }
