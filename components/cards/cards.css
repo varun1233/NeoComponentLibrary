@@ -5,7 +5,7 @@
   color: var(--primary-color);
 }
 .card-box-shadown {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--bs-light) 0px 8px 2.4rem;
 }
 .margin-bottom-1 {
   margin-bottom: 1rem;
@@ -31,7 +31,7 @@
 }
 .card-vertical:hover,
 .card-horizontal:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--bs-dark) 0px 5px 1.5rem;
 }
 .card-body {
   color: var(--primary-font-color);

@@ -31,14 +31,14 @@
       <!-- Sidebar starts -->
       <aisde class="sidebar">
         <h2>Getting Started</h2>
-        <ul>
+        <ul class="list-style-none">
           <li><a href="#">Usage</a></li>
           <li><a href="#">Colors</a></li>
-          <li><a href="#">Typography</a></li>
+          <li><a href="#typography">Typography</a></li>
         </ul>
 
         <h2>Components</h2>
-        <ul>
+        <ul class="list-style-none">
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#avatar">Avatars</a></li>
           <li><a href="#badges">Badges</a></li>
@@ -46,6 +46,8 @@
           <li><a href="#images">Image</a></li>
           <li><a href="#toast">Toast</a></li>
           <li><a href="#cards">Cards</a></li>
+          <li><a href="#modals">Modal</a></li>
+          <li><a href="#lists">Lists</a></li>
           <li><a href="#">Input</a></li>
         </ul>
         <div class="social-media display-flex">
@@ -1340,11 +1342,456 @@
           <!-- Example of Card with Only Text Ends -->
         </div>
         <!-- Cards Ends -->
+
+        <hr />
+
+        <!-- Modal Starts -->
+        <div id="modals">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Modal</h1>
+            <p>
+              Modals are positioned over everything else in the document and
+              remove scroll from the page. It gets closed only with close button
+              on modal pop-up.
+            </p>
+          </div>
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Modal</h3>
+            <p>
+              Click on the button below to open modal. Once the modal is open
+              user will not be able to scroll or do any action on the main page.
+              To close the pop-up, click on close icon or Back button.
+              Functionality is achieved using JavaScript
+            </p>
+          </div>
+
+          <!-- Component Display -->
+          <div class="component-display">
+            <!-- Demo Button -->
+            <button class="btn" id="modal-demo">Live Demo</button>
+            <!-- Modal -->
+            <div id="swiftui-modal" class="modal-container">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4>Modal Title</h4>
+                  <button class="btn-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="h5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatem autem dolorum, quisquam omnis voluptates veniam
+                    odio qui in praesentium minima ut eaque aliquid blanditiis.
+                    Ea ipsum corrupti aliquid ipsa voluptatibus.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    id="modal-save-cta"
+                  >
+                    Save
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    id="modal-close-cta"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <div id="swiftui-modal" class="modal-container">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Modal Title</h4>
+                    <button class="btn-close" id="modal-close">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="h5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatem autem dolorum, quisquam omnis voluptates veniam
+                      odio qui in praesentium minima ut eaque aliquid blanditiis.
+                      Ea ipsum corrupti aliquid ipsa voluptatibus.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      id="modal-save-cta"
+                    >
+                      Save
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      id="modal-close-cta"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </script>
+          </div>
+        </div>
+        <!-- Modal Ends -->
+
+        <hr />
+
+        <div id="typography">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Typography</h1>
+            <p>
+              Swift UI uses Sans-serif font as it's default font. The root
+              font-size is set as 10px for this library. Check out below text
+              utilities.
+            </p>
+          </div>
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Heading</h3>
+            <p>
+              For heading u can use h1, h2, h3, h4, h5, h6 elements.
+              <br />
+              The same font-styling is present for class names
+              <span class="code">h1, h2, h3, h4, h5, h6</span> class. You can
+              add one of these classes to style the text.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display display-flex-column">
+            <div class="typography-wrapper">
+              <h1>This is Heading - H1</h1>
+              <span class="h5">Font Size: &nbsp;<b>3rem</b></span>
+            </div>
+            <div class="typography-wrapper">
+              <h2>This is Heading - H2</h2>
+              <span class="h5">Font Size: &nbsp;<b>2.5rem</b></span>
+            </div>
+            <div class="typography-wrapper">
+              <h3>This is Heading - H3</h3>
+              <span class="h5">Font Size: &nbsp;<b>2rem</b></span>
+            </div>
+            <div class="typography-wrapper">
+              <h4>This is Heading - H4</h4>
+              <span class="h5">Font Size: &nbsp;<b>1.75rem</b></span>
+            </div>
+            <div class="typography-wrapper">
+              <h5>This is Heading - H5</h5>
+              <span class="h5">Font Size: &nbsp;<b>1.4rem</b></span>
+            </div>
+            <div class="typography-wrapper">
+              <h6>This is Heading - H6</h6>
+              <span class="h5">Font Size: &nbsp;<b>1.25rem</b></span>
+            </div>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <h1>This is Heading - H1</h1>
+              <h2>This is Heading - H2</h2>
+              <h3>This is Heading - H3</h3>
+              <h4>This is Heading - H4</h4>
+              <h5>This is Heading - H5</h5>
+              <h6>This is Heading - H6</h6>
+              <!-- Style with classes -->
+              <div class="h1">H1-Heading</div>
+              <p class="h4">H4-Heading</p>
+            </script>
+          </div>
+
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Font weight</h3>
+            <p>
+              These are the different Font Weights in Swift UI. The demo text
+              has the .h3 custom font class:
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display display-flex-column">
+            <span class="h3 font-weight-light">LIGHT 300</span>
+            <span class="h3 font-weight-regular">REGULAR 400</span>
+            <span class="h3 font-weight-medium">MEDIUM 500</span>
+            <span class="h3 font-weight-semibold">SEMIBOLD 600</span>
+            <span class="h3 font-weight-bold">BOLD 700</span>
+            <span class="h3 font-weight-black">BLACK 900</span>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <span class="h3 font-weight-light">LIGHT 300</span>
+              <span class="h3 font-weight-regular">REGULAR 400</span>
+              <span class="h3 font-weight-medium">MEDIUM 500</span>
+              <span class="h3 font-weight-semibold">SEMIBOLD 600</span>
+              <span class="h3 font-weight-bold">BOLD 700</span>
+              <span class="h3 font-weight-black">BLACK 900</span>
+            </script>
+          </div>
+
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Paragraph Text</h3>
+            <p>
+              For paragraph u can use <span class="code">p</span> element.
+              <br />
+              For different font styles add
+              <span class="code">h1, h2, h3, h4, h5, h6</span> class to
+              <span class="code">p</span> element.
+              <br />
+              To align the text add
+              <span class="code"
+                >text-align-center, text-align-left, text-align-right</span
+              >
+              class to wrapper element
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display display-block">
+            <p class="h6 text-align-left">This is small paragraph text</p>
+            <p class="h4 text-align-center">This is medium paragraph text</p>
+            <p class="h2 text-align-right">This is large paragraph text</p>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <p class="h6 text-align-left">This is small paragraph text</p>
+              <p class="h4 text-align-center">This is medium paragraph text</p>
+              <p class="h2 text-align-right">This is large paragraph text</p>
+            </script>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Lists Starts -->
+        <div id="lists">
+          <!-- Component Introduction -->
+          <div class="component-intro">
+            <h1>Lists</h1>
+            <p>
+              Lists can be used at so many places, navigation bar, stacked
+              notifications, article pages, etc.
+            </p>
+          </div>
+          <!-- Unordered Lists -->
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of List</h3>
+            <p>
+              Add class according to bullet style. To reverse the order of
+              ordered list, add
+              <span class="code">reversed</span> attribute to
+              <span class="code">ol</span> element. <br />
+              Copy html code below and add your desired list items.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display">
+            <ul class="list list-wrapper">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-square">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-circle">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-number">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-lowerletter">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-upperletter">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-none">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-wrapper list-style-none">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ol class="list list-wrapper">
+              <li>List Items with numbers</li>
+              <li>List Items with numbers</li>
+              <li>List Items with numbers</li>
+            </ol>
+            <ol class="list list-wrapper" reversed>
+              <li>Reversed list item</li>
+              <li>Reversed list item</li>
+              <li>Reversed list item</li>
+            </ol>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <ul class="list">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-square">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-circle">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-number">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-lowerletter">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-upperletter">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ul class="list list-style-none">
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+              <ol class="list list-wrapper" reversed>
+                <li>Reversed list item</li>
+                <li>Reversed list item</li>
+                <li>Reversed list item</li>
+              </ol>
+            </script>
+          </div>
+          <!-- Unordered Lists -->
+
+          <!-- Stacked List and Inline List -->
+          <!-- Component Usage Explanation -->
+          <div class="component-usage-explain">
+            <h3>Example of Stacked List and Inline List</h3>
+            <p>
+              If you want list items in same line instead of stacked, you can
+              add <span class="code">list-style-inline</span> class to make it
+              inline. And you can also add
+              <span class="code">list-style-none</span> class to remove bullets.
+              <br />
+              This is stacked list without bullets. We can add desired component
+              inside "li" element. Check below code for alerts in stacked list.
+            </p>
+          </div>
+          <!-- Component Display -->
+          <div class="component-display display-flex-column">
+            <ul class="list list-style-inline list-style-circle list-wrapper">
+              <li>Inline List</li>
+              <li>Inline List</li>
+              <li>Inline List</li>
+            </ul>
+            <ul class="list stacked-list-ul">
+              <li>
+                <div class="alert alert-primary">A new item added to cart.</div>
+              </li>
+              <li>
+                <div class="alert alert-primary">
+                  Your order has been shipped.
+                </div>
+              </li>
+              <li>
+                <div class="alert alert-primary">
+                  Your order has been delivered.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Component Code -->
+          <div class="component-code">
+            <script
+              type="text/plain"
+              class="line-numbers language-markup prism-default"
+            >
+              <!-- Inline List -->
+                <ul class="list list-style-inline list-style-circle">
+                  <li>Inline List</li>
+                  <li>Inline List</li>
+                  <li>Inline List</li>
+                </ul>
+                <!-- Stacked List -->
+                <ul class="list stacked-list-ul">
+                  <li>
+                    <div class="alert alert-primary">A new item added to cart.</div>
+                  </li>
+                  <li>
+                    <div class="alert alert-primary">
+                      Your order has been shipped.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="alert alert-primary">
+                      Your order has been delivered.
+                    </div>
+                  </li>
+                </ul>
+            </script>
+          </div>
+          <!-- Stacked List and Inline List ends -->
+        </div>
+        <!-- Lists Ends -->
       </section>
       <!-- Main Documentation Ends -->
     </div>
     <!-- Main Page Ends -->
   </body>
+  <script src="documentation.js"></script>
   <script
     src="https://kit.fontawesome.com/d7aea2aee7.js"
     crossorigin="anonymous"

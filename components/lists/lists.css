@@ -1,0 +1,35 @@
+.list-wrapper {
+  margin: 1rem 1rem 1rem 0;
+  padding: 1rem 3rem 1rem 4rem;
+}
+.list {
+  font-size: 1.25rem;
+}
+.list-style-square {
+  list-style: square;
+}
+.list-style-circle {
+  list-style: circle;
+}
+.list-style-number {
+  list-style: decimal;
+}
+.list-style-lowerletter {
+  list-style: lower-alpha;
+}
+.list-style-upperletter {
+  list-style: upper-alpha;
+}
+.list-style-none {
+  list-style: none;
+}
+.list-style-inline {
+  display: flex;
+  gap: 2rem;
+}
+.stacked-list-ul {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 1rem 0;
+  width: 100%;
+}
