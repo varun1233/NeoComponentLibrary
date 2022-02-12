@@ -99,3 +99,6 @@ span.code {
   height: 35vh;
   border-radius: 5px;
 }
+.display-block {
+  display: block;
+}
