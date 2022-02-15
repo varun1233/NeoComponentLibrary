@@ -1,0 +1,10 @@
+.rating-container {
+  font-size: 2rem;
+}
+.rating-icon {
+  color: var(--color-light-gray);
+}
+.rating-icon:hover,
+.rating-icon.checked {
+  color: var(--primary-color);
+}
