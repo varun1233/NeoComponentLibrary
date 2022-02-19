@@ -13,6 +13,9 @@
 @import url("/components/utility.css");
 @import url("/components/typography/typography.css");
 @import url("/components//lists/lists.css");
+@import url("/components/input/input.css");
+@import url("/components/navigation/navigation.css");
+@import url("/components/rating/rating.css");
 
 * {
   margin: 0;
@@ -67,6 +70,8 @@ html {
   --button-primary-color: #0d6efd;
   --button-secondary-color: #6c757d;
   --button-success-color: #198754;
+
+  --form-control-border: #ced4da;
 
   --color-light-gray: rgb(160, 160, 160);
   --color-black: black;
