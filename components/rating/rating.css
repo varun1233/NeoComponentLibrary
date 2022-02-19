@@ -3,6 +3,7 @@
 }
 .rating-icon {
   color: var(--color-light-gray);
+  cursor: pointer;
 }
 .rating-icon:hover,
 .rating-icon.checked {
