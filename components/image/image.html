@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Images</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Images</h1>
+          <p>
+            Images can be responsive to fit the parent's width, and also can be
+            customised to be round or square shaped
+          </p>
+        </div>
+
+        <!-- Example of responsive Image starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Responsive Image</h2>
+          <p>
+            You can add class <span class="code">img-responsive</span> to make
+            your image fit the width of container. It's height will get adjusted
+            by keeping the aspect ratio same. If you want to change the aspect
+            ratio, you will have to crop the image.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <img
+            class="responsive-image"
+            src="/assests/responsive_image.jpg"
+            alt="responsive_image"
+          />
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <img class="responsive-image" src=".." alt="responsive_image" />
+          </script>
+        </div>
+        <!-- Example of responsive Image ends -->
+
+        <!-- Example of round & square Image starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Round & Square Image</h2>
+          <p>
+            You can add class <span class="code">image-round</span> to make your
+            image round shaped. <br />
+            To make an image square shaped you can add class
+            <span class="code">image-square</span>.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <img
+            class="responsive-image image-round"
+            src="/assests/round_image.png"
+            alt="rounded_image"
+          />
+          <img
+            class="responsive-image image-square"
+            src="/assests/square_image.png"
+            alt="square_image"
+          />
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <img class="responsive-image image-round" src=".." alt="round_image" />
+            <img class="responsive-image image-square" src=".." alt="square_image" />
+          </script>
+        </div>
+        <!-- Example of round & square Image ends -->
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>

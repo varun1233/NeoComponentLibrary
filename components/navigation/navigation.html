@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Navigation</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Navigation</h1>
+          <p>
+            Navigation bar is used to navigate through the web apps or websites.
+          </p>
+        </div>
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Navigation Bar</h2>
+          <p>
+            Appears at the top of an app screen and enables navigation to
+            different screens. Checkout the code below:
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <nav class="navbar">
+            <div class="logo">
+              <a
+                class="display-flex font-weight-black align-items-center h2"
+                href="/home.html"
+              >
+                <img
+                  class="responsive-image"
+                  src="/assests/logo.png"
+                  alt="Swift Logo"
+                /><span>Swift UI</span>
+              </a>
+            </div>
+            <div class="search-bar">
+              <input
+                class="search-input"
+                placeholder="What are you looking for"
+                type="text"
+              />
+              <span class="search-icon">
+                <i class="fa fa-search"></i>
+              </span>
+            </div>
+            <div class="navigation font-weight-semibold">
+              <a class="h3" href="#"><i class="fa fa-user-circle-o"></i></a>
+              <a class="h3" href="#"><i class="fa fa-heart"></i></a>
+              <a class="h3" href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+          </nav>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <nav class="navbar">
+              <div class="logo">
+                <a class="display-flex" href="/home.html">
+                  <img class="responsive-image" src=".." alt="Swift Logo"/><span>Swift UI</span>
+                </a>
+              </div>
+              <div class="search-bar">
+                <input
+                  class="search-input"
+                  placeholder="What are you looking for"
+                  type="text"
+                />
+                <span class="search-icon">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+              <div class="navigation">
+                <a href="#"><i class="fa fa-user-circle-o"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+              </div>
+            </nav>
+          </script>
+        </div>
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>

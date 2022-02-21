@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Buttons</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Buttons</h1>
+          <p>
+            Button is a trigger that allows user to take action. We have a
+            different range of options for a button. You may use
+            <span class="code"><i>a</i></span> tag or
+            <span class="code"><i>button</i></span> element or
+            <span class="code"><i>input</i></span> element, you need to add
+            respective classes, and you are good to go.
+          </p>
+        </div>
+
+        <!-- Example of Solid buttons Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Solid Buttons</h2>
+          <p>
+            We have six predefined button styles,each serving its own semantic
+            purpose. You need to include class
+            <span class="code">btn</span> for normal buttons, also add modifier
+            class according to the button type-
+            <span class="code"
+              >btn-primary,btn-secondary,btn-success,btn-danger,
+              btn-warning</span
+            >. Checkout the html code below:
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="submit" class="btn btn-secondary">Secondary</button>
+          <input class="btn btn-success" type="button" value="Success" />
+          <input class="btn btn-danger" type="submit" value="Danger" />
+          <input class="btn btn-warning" type="reset" value="Warning" />
+          <button class="btn">Info</button>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="submit" class="btn btn-secondary">Secondary</button>
+            <input class="btn btn-success" type="button" value="Success" />
+            <input class="btn btn-danger" type="submit" value="Danger" />
+            <input class="btn btn-warning" type="reset" value="Warning" />
+            <button class="btn">Info</button>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </script>
+        </div>
+        <!-- Example of Solid buttons Ends -->
+
+        <!-- Example of Outline buttons Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Outline Buttons</h2>
+          <p>
+            In need of a button, but not the hefty background colors they bring?
+            Replace the default modifier classes with the
+            <span class="code">.btn-outline-*</span> ones to remove all
+            background and colors on any button.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="submit" class="btn btn-outline-secondary">
+            Secondary
+          </button>
+          <a class="btn btn-outline-success" href="#" role="button">Success</a>
+          <input class="btn btn-outline-danger" type="button" value="Danger" />
+          <input
+            class="btn btn-outline-warning"
+            type="submit"
+            value="Warning"
+          />
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="submit" class="btn btn-outline-secondary">Secondary</button>
+            <a class="btn btn-outline-success" href="#" role="button">Success</a>
+            <input class="btn btn-outline-danger" type="button" value="Danger" />
+            <input class="btn btn-outline-warning" type="submit" value="Warning" />
+          </script>
+        </div>
+        <!-- Example of Outline buttons Ends-->
+
+        <!-- Example of Icon buttons Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Icon Buttons</h2>
+          <p>
+            You can add icons as buttons as well. There are 3 variants of icon
+            buttons available. Checkout the html code below:
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <a class="btn" href="#" role="button">
+            <span class="btn-icon-text">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            Add to cart
+          </a>
+          <button class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <a class="btn" href="#" role="button">
+              <span class="btn-icon-text">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+              Add to cart
+            </a>
+            <button class="btn btn-primary">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon"><i class="fas fa-trash"></i></button>
+          </script>
+        </div>
+        <!-- Example of Icon buttons Ends-->
+
+        <!-- Example of Disabled buttons Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Disabled Buttons</h2>
+          <p>
+            Make buttons look inactive by adding the
+            <span class="code">btn-disabled</span> class along with the
+            <span class="code">btn</span> class. Disabled buttons have
+            pointer-events: none applied to, preventing hover and active states
+            from triggering.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <button type="button" class="btn btn-primary btn-disabled">
+            Primary
+          </button>
+          <a class="btn btn-outline-danger btn-disabled" href="#" role="button"
+            >Success</a
+          >
+          <a class="btn btn-disabled" href="#" role="button"
+            ><span class="btn-icon-text"
+              ><i class="fas fa-shopping-cart"></i></span
+            >Add to cart</a
+          >
+          <button class="btn btn-primary btn-disabled">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button class="btn btn-icon btn-disabled">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <button type="button" class="btn btn-primary btn-disabled">
+              Primary
+            </button>
+            <a class="btn btn-outline-danger btn-disabled" href="#" role="button"
+              >Success</a
+            >
+            <a class="btn btn-disabled" href="#" role="button"
+              ><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i></span
+              >Add to cart</a
+            >
+            <button class="btn btn-primary btn-disabled">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-icon btn-disabled">
+              <i class="fas fa-trash"></i>
+            </button>
+          </script>
+        </div>
+        <!-- Example of Disabled buttons Ends-->
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>

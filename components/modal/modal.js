@@ -4,7 +4,6 @@ const closeButton = document.querySelector("#modal-close");
 const closeButtonCTA = document.querySelector("#modal-close-cta");
 
 showButton.addEventListener("click", () => {
-  console.log("inside");
   modal.classList.add("visible");
   document.body.style.overflow = "hidden";
 });
