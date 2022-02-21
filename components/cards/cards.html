@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Cards</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Cards</h1>
+          <p>
+            Card are used to show user's collectively data, like e-commerce
+            product details.
+          </p>
+        </div>
+
+        <!-- Example of Vertical Cards Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Vertical Cards</h2>
+          <p>
+            Below are 3 variantions, card with badge, card with image, card with
+            close button. You can copy html part from below code snippet.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <div class="card-vertical">
+            <div class="card-image">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                Gaming Chair
+                <span class="card-icon">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </h3>
+              <p class="product-description font-weight-regular">
+                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card-vertical card-box-shadow">
+            <div class="card-image">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+              <span class="card-badge h5 font-weight-semibold">New</span>
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                Gaming Chair
+                <span class="card-icon">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </h3>
+              <p class="product-description font-weight-regular">
+                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card-vertical card-box-shadow">
+            <button class="btn-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="card-image">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+              <span class="card-badge h5 font-weight-semibold">Trending</span>
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                Gaming Chair
+                <span class="card-icon">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </h3>
+              <p class="product-description font-weight-regular">
+                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <div class="card-vertical card-box-shadow">
+              <button class="btn-close">
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="card-image">
+                <img class="responsive-image" src=".." alt=".." />
+                <span class="card-badge h5 font-weight-semibold">Trending</span>
+              </div>
+              <div class="card-body pad-1 h5">
+                <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                  Gaming Chair
+                  <span class="card-icon">
+                    <i class="fas fa-heart"></i>
+                  </span>
+                </h3>
+                <p class="product-description font-weight-regular">
+                  Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+                </p>
+                <p class="product-pricing">
+                  <b>₹12000</b>
+                  <span class="strike-through font-weight-regular">₹1200</span>
+                  <span class="discount-percentage font-weight-regular">10% off</span>
+                </p>
+                <div class="card-cta margin-top-1">
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span>Buy
+                    Now</a
+                  >
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </script>
+        </div>
+        <!-- Example of Vertical Cards Ends-->
+
+        <!-- Example of Horizontal Cards Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Horizontal Cards</h2>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <div class="card-horizontal card-box-shadow">
+            <div class="card-image pad-1">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+              <span class="card-badge h6 font-weight-regular">New</span>
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold">Gaming Chair</h3>
+              <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+              <p class="product-description font-weight-regular">
+                REKART Ergonomic Gaming Chair Adjustable Back Rest Fixed Arm
+                Rest 175 Recline M1-Red Leather Gaming Chair (Red, Black,
+                DIY(Do-It-Yourself))
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card-horizontal">
+            <div class="card-image pad-1">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold">Gaming Chair</h3>
+              <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+              <p class="product-description font-weight-regular">
+                REKART Ergonomic Gaming Chair Adjustable Back Rest Fixed Arm
+                Rest 175 Recline M1-Red Leather Gaming Chair (Red, Black,
+                DIY(Do-It-Yourself))
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <div class="card-horizontal card-box-shadow">
+              <div class="card-image pad-1">
+                <img class="responsive-image" src=".." alt=".."/>
+                <span class="card-badge h6 font-weight-regular">New</span>
+              </div>
+              <div class="card-body pad-1 h5">
+                <h3 class="product-heading font-weight-semibold">Gaming Chair</h3>
+                <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+                <p class="product-description font-weight-regular">
+                  REKART Ergonomic Gaming Chair Adjustable Back Rest Fixed Arm Rest
+                  175 Recline M1-Red Leather Gaming Chair (Red, Black,
+                  DIY(Do-It-Yourself))
+                </p>
+                <p class="product-pricing">
+                  <b>₹12000</b>
+                  <span class="strike-through font-weight-regular">₹1200</span>
+                  <span class="discount-percentage font-weight-regular">10% off</span>
+                </p>
+                <div class="card-cta margin-top-1">
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span>Buy
+                    Now</a
+                  >
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </script>
+        </div>
+        <!-- Example of Horizontal Cards Ends-->
+
+        <!-- Example of Card with text Overlay Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Cards with Text Overlay</h2>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <div class="card-vertical card-box-shadow">
+            <div class="card-text-overlay">
+              <h1 class="font-weight-bold">Out of Stock</h1>
+            </div>
+            <div class="card-image">
+              <img
+                class="responsive-image"
+                src="/assests/product_image.jpeg"
+                alt="product_image"
+              />
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                Gaming Chair
+                <span class="card-icon">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </h3>
+              <p class="product-description font-weight-regular">
+                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+              </p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="card-cta margin-top-1">
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span
+                  >Buy Now</a
+                >
+                <a class="btn" href="#" role="button"
+                  ><span class="btn-icon-text"
+                    ><i class="fas fa-shopping-cart"></i></span
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <div class="card-vertical card-box-shadow">
+              <div class="card-text-overlay">
+                <h1 class="font-weight-bold">Out of Stock</h1>
+              </div>
+              <div class="card-image">
+                <img class="responsive-image" src=".." alt=".." />
+              </div>
+              <div class="card-body pad-1 h5">
+                <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                  Gaming Chair
+                  <span class="card-icon">
+                    <i class="fas fa-heart"></i>
+                  </span>
+                </h3>
+                <p class="product-description font-weight-regular">
+                  Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+                </p>
+                <p class="product-pricing">
+                  <b>₹12000</b>
+                  <span class="strike-through font-weight-regular">₹1200</span>
+                  <span class="discount-percentage font-weight-regular">10% off</span>
+                </p>
+                <div class="card-cta margin-top-1">
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"><i class="fas fa-bolt"></i></span>Buy
+                    Now</a
+                  >
+                  <a class="btn" href="#" role="button"
+                    ><span class="btn-icon-text"
+                      ><i class="fas fa-shopping-cart"></i></span
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </script>
+        </div>
+        <!-- Example of Card with text Overlay Ends-->
+
+        <!-- Example of Text Only Cards Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Text Only Cards</h2>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <div class="card-vertical">
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                Gaming Chair
+              </h3>
+              <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+              <p class="product-description font-weight-regular">
+                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+              </p>
+              <div class="card-cta margin-top-1">
+                <button class="btn btn-icon btn-icon-primary">
+                  <i class="fas fa-heart"></i>
+                </button>
+                <button class="btn btn-icon btn-icon-primary">
+                  <i class="fas fa-comment"></i>
+                </button>
+                <button class="btn btn-icon btn-icon-primary">
+                  <i class="fas fa-share"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <div class="card-vertical">
+              <div class="card-body pad-1 h5">
+                <h3 class="product-heading font-weight-semibold margin-bottom-1">
+                  Gaming Chair
+                </h3>
+                <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+                <p class="product-description font-weight-regular">
+                  Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
+                </p>
+                <div class="card-cta margin-top-1">
+                  <button class="btn btn-icon btn-icon-primary">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                  <button class="btn btn-icon btn-icon-primary">
+                    <i class="fas fa-comment"></i>
+                  </button>
+                  <button class="btn btn-icon btn-icon-primary">
+                    <i class="fas fa-share"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </script>
+        </div>
+        <!-- Example of Text Only Cards Ends-->
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>

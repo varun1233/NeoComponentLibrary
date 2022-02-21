@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Typography</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Typography</h1>
+          <p>
+            Swift UI uses Sans-serif font as it's default font. The root
+            font-size is set as 10px for this library. Check out below text
+            utilities.
+          </p>
+        </div>
+        <!-- Main Typography Starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Heading</h2>
+          <p>
+            For heading u can use
+            <span class="code"><i>h1, h2, h3, h4, h5, h6</i></span> elements.
+            <br />
+            The same font-styling is present for class names
+            <span class="code">h1, h2, h3, h4, h5, h6</span> class. You can add
+            one of these classes to style the text.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly display-flex-column"
+        >
+          <div class="typography-wrapper">
+            <h1>This is Heading - H1</h1>
+            <span class="h5">Font Size: &nbsp;<b>3rem</b></span>
+          </div>
+          <div class="typography-wrapper">
+            <h2>This is Heading - H2</h2>
+            <span class="h5">Font Size: &nbsp;<b>2.5rem</b></span>
+          </div>
+          <div class="typography-wrapper">
+            <h3>This is Heading - H3</h3>
+            <span class="h5">Font Size: &nbsp;<b>2rem</b></span>
+          </div>
+          <div class="typography-wrapper">
+            <h4>This is Heading - H4</h4>
+            <span class="h5">Font Size: &nbsp;<b>1.75rem</b></span>
+          </div>
+          <div class="typography-wrapper">
+            <h5>This is Heading - H5</h5>
+            <span class="h5">Font Size: &nbsp;<b>1.4rem</b></span>
+          </div>
+          <div class="typography-wrapper">
+            <h6>This is Heading - H6</h6>
+            <span class="h5">Font Size: &nbsp;<b>1.25rem</b></span>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <h1>This is Heading - H1</h1>
+            <h2>This is Heading - H2</h2>
+            <h3>This is Heading - H3</h3>
+            <h4>This is Heading - H4</h4>
+            <h5>This is Heading - H5</h5>
+            <h6>This is Heading - H6</h6>
+            <!-- Style with classes -->
+            <div class="h1">H1-Heading</div>
+            <p class="h4">H4-Heading</p>
+          </script>
+        </div>
+        <!-- Main Typography Ends -->
+
+        <!-- Font Weight Starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Font weight</h2>
+          <p>
+            These are the different Font Weights in Swift UI. The demo text has
+            the <span class="code">.h3</span> custom font class:
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly display-flex-column"
+        >
+          <span class="h3 font-weight-light">LIGHT 300</span>
+          <span class="h3 font-weight-regular">REGULAR 400</span>
+          <span class="h3 font-weight-medium">MEDIUM 500</span>
+          <span class="h3 font-weight-semibold">SEMIBOLD 600</span>
+          <span class="h3 font-weight-bold">BOLD 700</span>
+          <span class="h3 font-weight-black">BLACK 900</span>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <span class="h3 font-weight-light">LIGHT 300</span>
+            <span class="h3 font-weight-regular">REGULAR 400</span>
+            <span class="h3 font-weight-medium">MEDIUM 500</span>
+            <span class="h3 font-weight-semibold">SEMIBOLD 600</span>
+            <span class="h3 font-weight-bold">BOLD 700</span>
+            <span class="h3 font-weight-black">BLACK 900</span>
+          </script>
+        </div>
+        <!-- Font Weight Ends -->
+
+        <!-- Paragraph Starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Paragraph Text</h2>
+          <p>
+            For paragraph u can use <span class="code">p</span> element.
+            <br />
+            For different font styles add
+            <span class="code">h1, h2, h3, h4, h5, h6</span> class to
+            <span class="code">p</span> element.
+            <br />
+            To align the text add
+            <span class="code"
+              >text-align-center, text-align-left, text-align-right</span
+            >
+            class to wrapper element
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly display-block"
+        >
+          <p class="h6 text-align-left">This is small paragraph text</p>
+          <p class="h4 text-align-center">This is medium paragraph text</p>
+          <p class="h2 text-align-right">This is large paragraph text</p>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <p class="h6 text-align-left">This is small paragraph text</p>
+            <p class="h4 text-align-center">This is medium paragraph text</p>
+            <p class="h2 text-align-right">This is large paragraph text</p>
+          </script>
+        </div>
+        <!-- Paragraph Ends -->
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>

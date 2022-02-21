@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift UI | Lists</title>
+    <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/components/swift.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div
+        class="container display-flex justify-content-space-between align-items-center"
+      >
+        <div class="logo">
+          <a
+            class="display-flex font-weight-black align-items-center h2"
+            href="/home.html"
+          >
+            <img src="/assests/logo.png" alt="Swift Logo" /><span
+              >Swift UI</span
+            >
+          </a>
+        </div>
+        <div class="navigation font-weight-semibold">
+          <a class="h3" href="/home.html">Home</a>
+          <a class="h3" href="/components/usage/usage.html">Documentation</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <div class="wrapper display-flex">
+      <!-- Sidebar starts -->
+      <aisde class="sidebar">
+        <h3 class="font-weight-bold">Getting Started</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/usage/usage.html">Usage</a></li>
+          <li>
+            <a href="/components/typography/typography.html">Typography</a>
+          </li>
+        </ul>
+
+        <h3>Components</h3>
+        <ul class="list-style-none">
+          <li><a href="/components/alert/alert.html">Alerts</a></li>
+          <li><a href="/components/avatar/avatar.html">Avatars</a></li>
+          <li><a href="/components/badges/badges.html">Badges</a></li>
+          <li><a href="/components/buttons/buttons.html">Buttons</a></li>
+          <li><a href="/components/image/image.html">Image</a></li>
+          <li><a href="/components/toast/toast.html">Toast</a></li>
+          <li><a href="/components/cards/cards.html">Cards</a></li>
+          <li><a href="/components/modal/modal.html">Modal</a></li>
+          <li><a href="/components/lists/lists.html">Lists</a></li>
+          <li><a href="/components/input/input.html">Input</a></li>
+          <li>
+            <a href="/components/navigation/navigation.html">Navigation</a>
+          </li>
+          <li><a href="/components/rating/rating.html">Ratings</a></li>
+        </ul>
+        <div class="social-media display-flex">
+          <a class="h3" href="https://github.com/varun1233" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://twitter.com/VarunMittal1233"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="h3"
+            href="https://www.linkedin.com/in/varunmittal1233/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </aisde>
+      <!-- Sidebar ends -->
+
+      <section class="main-documentation">
+        <!-- Component Introduction -->
+        <div class="component-intro font-weight-regular">
+          <h1>Lists</h1>
+          <p>
+            Lists can be used at so many places, navigation bar, stacked
+            notifications, article pages, etc.
+          </p>
+        </div>
+
+        <!-- Unordered Lists Starts-->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of List</h2>
+          <p>
+            Add class according to bullet style. To reverse the order of ordered
+            list, add
+            <span class="code">reversed</span> attribute to
+            <span class="code">ol</span> element. <br />
+            Copy html code below and add your desired list items.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly"
+        >
+          <ul class="list list-wrapper">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-square">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-circle">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-number">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-lowerletter">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-upperletter">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-none">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ul class="list list-wrapper list-style-none">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
+          <ol class="list list-wrapper">
+            <li>List Items with numbers</li>
+            <li>List Items with numbers</li>
+            <li>List Items with numbers</li>
+          </ol>
+          <ol class="list list-wrapper" reversed>
+            <li>Reversed list item</li>
+            <li>Reversed list item</li>
+            <li>Reversed list item</li>
+          </ol>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <ul class="list">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-square">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-circle">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-number">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-lowerletter">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-upperletter">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ul class="list list-style-none">
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+            <ol class="list list-wrapper" reversed>
+              <li>Reversed list item</li>
+              <li>Reversed list item</li>
+              <li>Reversed list item</li>
+            </ol>
+          </script>
+        </div>
+        <!-- Unordered Lists Ends-->
+
+        <!-- Stacked List and Inline List Starts -->
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of Stacked List and Inline List</h2>
+          <p>
+            If you want list items in same line instead of stacked, you can add
+            <span class="code">list-style-inline</span> class to make it inline.
+            And you can also add <span class="code">list-style-none</span> class
+            to remove bullets.
+            <br />
+            This is stacked list without bullets. We can add desired component
+            inside "li" element. Check below code for alerts in stacked list.
+          </p>
+        </div>
+        <!-- Component Display -->
+        <div
+          class="component-display display-flex justify-content-space-evenly display-flex-column"
+        >
+          <ul class="list list-style-inline list-style-circle list-wrapper">
+            <li>Inline List</li>
+            <li>Inline List</li>
+            <li>Inline List</li>
+          </ul>
+          <ul class="list stacked-list-ul">
+            <li>
+              <div class="alert alert-primary">A new item added to cart.</div>
+            </li>
+            <li>
+              <div class="alert alert-primary">
+                Your order has been shipped.
+              </div>
+            </li>
+            <li>
+              <div class="alert alert-primary">
+                Your order has been delivered.
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <!-- Inline List -->
+            <ul class="list list-style-inline list-style-circle">
+              <li>Inline List</li>
+              <li>Inline List</li>
+              <li>Inline List</li>
+            </ul>
+            <!-- Stacked List -->
+            <ul class="list stacked-list-ul">
+              <li>
+                <div class="alert alert-primary">A new item added to cart.</div>
+              </li>
+              <li>
+                <div class="alert alert-primary">
+                  Your order has been shipped.
+                </div>
+              </li>
+              <li>
+                <div class="alert alert-primary">
+                  Your order has been delivered.
+                </div>
+              </li>
+            </ul>
+          </script>
+        </div>
+        <!-- Stacked List and Inline List Ends-->
+      </section>
+    </div>
+    <!-- Main Content Ends -->
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/utils/prism/prism.js"></script>
+</html>
