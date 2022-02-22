@@ -69,6 +69,18 @@
   color: var(--primary-color);
   background: transparent;
 }
+.btn-float {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-font-color);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
 .btn-icon-primary {
   color: var(--button-primary-color);
 }
