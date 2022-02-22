@@ -40,6 +40,12 @@ span.code {
   background: var(--primary-color);
   border-radius: 5px;
 }
+.sidebar li a.selected-component {
+  color: var(--primary-color);
+}
+.sidebar li:hover a.selected-component {
+  color: var(--secondary-font-color);
+}
 .social-media {
   align-items: center;
   justify-content: center;

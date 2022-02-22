@@ -88,11 +88,3 @@ h6 {
 .text-align-right {
   text-align: right;
 }
-.selected-component {
-  color: var(--primary-color) !important;
-}
-.selected-component:hover {
-  color: var(--secondary-font-color) !important;
-  background: var(--primary-color) !important;
-  border-radius: 5px !important;
-}
