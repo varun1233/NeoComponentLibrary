@@ -47,7 +47,7 @@ To start using the components in your project import the stylesheet in your css 
 - [Input](https://swift-ui.netlify.app/components/input/input.html)
 - [Navigations](https://swift-ui.netlify.app/components/navigation/navigation.html)
 - [Rating](https://swift-ui.netlify.app/components/rating/rating.html)
-- [Grids](https://swift-ui.netlify.app/components/grids/grids.html)
+- [Grids](https://swift-ui.netlify.app/components/grids/grid.html)
 
 ## Alerts
 
