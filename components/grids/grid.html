@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swift UI | Alerts</title>
+    <title>Swift UI | Grids</title>
     <link rel="icon" href="/assests/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="/components/swift.css" />
     <link rel="stylesheet" href="/documentation.css" />
@@ -39,11 +39,7 @@
       <aisde class="sidebar">
         <h3 class="font-weight-bold">Getting Started</h3>
         <ul class="list-style-none">
-          <li>
-            <a class="selected-component" href="/components/usage/usage.html"
-              >Usage</a
-            >
-          </li>
+          <li><a href="/components/usage/usage.html">Usage</a></li>
           <li>
             <a href="/components/typography/typography.html">Typography</a>
           </li>
@@ -65,7 +61,11 @@
             <a href="/components/navigation/navigation.html">Navigation</a>
           </li>
           <li><a href="/components/rating/rating.html">Ratings</a></li>
-          <li><a href="/components/grids/grid.html">Grids</a></li>
+          <li>
+            <a class="selected-component" href="/components/grids/grid.html"
+              >Grids</a
+            >
+          </li>
         </ul>
         <div class="social-media display-flex">
           <a class="h3" href="https://github.com/varun1233" target="_blank"
@@ -90,24 +90,118 @@
       <section class="main-documentation">
         <!-- Component Introduction -->
         <div class="component-intro font-weight-regular">
-          <h1>Usage</h1>
+          <h1>Grids Simplified</h1>
           <p>
-            Swift UI is an HTML CSS based UI toolkit, a light weight and modular
-            library for developing fast and powerful web interfaces. To start
-            using the components in your project import the stylesheet in your
-            css or html file.
+            Use grid when you want sections in view. Check below some examples.
           </p>
         </div>
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of grid 2 layout</h2>
+        </div>
+        <!-- Component Display -->
+        <div class="component-display justify-content-space-evenly">
+          <div class="grid grid-2-layout">
+            <div>
+              <img
+                class="responsive-image"
+                src="/assests/responsive_image.jpg"
+                alt="responsive_image"
+              />
+            </div>
+            <div>
+              <img
+                class="responsive-image"
+                src="/assests/responsive_image.jpg"
+                alt="responsive_image"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
         <div class="component-code">
           <script
             type="text/plain"
             class="line-numbers language-markup prism-default"
           >
-            <!-- For CSS -->
-            @import url("https://swift-ui.netlify.app/components/swift.css");
+            <div class="grid grid-2-layout">
+              <div>
+                <img
+                  class="responsive-image"
+                  src="/assests/responsive_image.jpg"
+                  alt="responsive_image"
+                />
+              </div>
+              <div>
+                <img
+                  class="responsive-image"
+                  src="/assests/responsive_image.jpg"
+                  alt="responsive_image"
+                />
+              </div>
+            </div>
+          </script>
+        </div>
 
-            <!-- For HTML -->
-            <link rel="stylesheet" href="https://swift-ui.netlify.app/components/swift.css">
+        <!-- Component Usage Explanation -->
+        <div class="component-usage-explain">
+          <h2>Example of grid 3 layout</h2>
+        </div>
+        <!-- Component Display -->
+        <div class="component-display justify-content-space-evenly">
+          <div class="grid grid-3-layout">
+            <div>
+              <img
+                class="responsive-image"
+                src="/assests/responsive_image.jpg"
+                alt="responsive_image"
+              />
+            </div>
+            <div>
+              <img
+                class="responsive-image"
+                src="/assests/responsive_image.jpg"
+                alt="responsive_image"
+              />
+            </div>
+            <div>
+              <img
+                class="responsive-image"
+                src="/assests/responsive_image.jpg"
+                alt="responsive_image"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Component Code -->
+        <div class="component-code">
+          <script
+            type="text/plain"
+            class="line-numbers language-markup prism-default"
+          >
+            <div class="grid grid-3-layout">
+              <div>
+                <img
+                  class="responsive-image"
+                  src="/assests/responsive_image.jpg"
+                  alt="responsive_image"
+                />
+              </div>
+              <div>
+                <img
+                  class="responsive-image"
+                  src="/assests/responsive_image.jpg"
+                  alt="responsive_image"
+                />
+              </div>
+              <div>
+                <img
+                  class="responsive-image"
+                  src="/assests/responsive_image.jpg"
+                  alt="responsive_image"
+                />
+              </div>
+            </div>
           </script>
         </div>
       </section>

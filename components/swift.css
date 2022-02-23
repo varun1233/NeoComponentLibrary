@@ -16,6 +16,7 @@
 @import url("/components/rating/rating.css");
 @import url("/utils/header/header.css");
 @import url("/utils/prism/prism.css");
+@import url("/components/grids/grids.css");
 
 * {
   margin: 0;
