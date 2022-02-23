@@ -47,6 +47,7 @@ To start using the components in your project import the stylesheet in your css 
 - [Input](https://swift-ui.netlify.app/components/input/input.html)
 - [Navigations](https://swift-ui.netlify.app/components/navigation/navigation.html)
 - [Rating](https://swift-ui.netlify.app/components/rating/rating.html)
+- [Grids](https://swift-ui.netlify.app/components/grids/grid.html)
 
 ## Alerts
 
@@ -173,3 +174,12 @@ Rating components can be used as to get user feedbacks, or to provide insights r
 We cover the following rating
 
 - Standard Rating
+
+## Grids
+
+Use grid when you want sections in view
+
+We have 2 types of grid layout
+
+- Grid 2 layout
+- Grid 3 layout
